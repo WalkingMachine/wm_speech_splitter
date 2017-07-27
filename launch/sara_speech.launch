@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="wm_speech_splitter" type="splitter.py" name="speech_splitter">
+        <remap from="/speech/complete" to="sara_command"/>
+    </node>
+</launch>
