@@ -2,7 +2,7 @@
 
 import rospy
 from std_msgs.msg import String
-from lab_ros_speech_to_text.msg import Speech
+from success_ros_msgs.msg import Speech
 
 class splitter:
 
